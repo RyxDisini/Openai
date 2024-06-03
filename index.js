@@ -18,7 +18,7 @@ app.post('/api/openai', async (req, res) => {
     }, {
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer ${process.env.sk-proj-9VqHONylbMwzqKyHyseoT3BlbkFJjnd7tZyku2zMhdPfdMww}`
+        'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`
       }
     });
 
